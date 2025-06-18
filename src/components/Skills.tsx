@@ -7,40 +7,36 @@ const Skills: React.FC = () => {
       icon: <Code2 size={32} />,
       title: "Python & Frameworks",
       skills: [
-        { name: "Python", level: 98 },
-        { name: "Django/DRF", level: 95 },
-        { name: "FastAPI", level: 92 },
-        { name: "Flask", level: 90 }
+        { name: "Python", level: 85 },
+        { name: "Django/DRF", level: 75 },
+        { name: "Flask", level: 70 }
       ]
     },
     {
-      icon: <Database size={32} />,
+      icon: <Database size={28} />,
       title: "Databases & Storage",
       skills: [
         { name: "PostgreSQL", level: 95 },
-        { name: "Redis", level: 90 },
-        { name: "MongoDB", level: 85 },
-        { name: "Elasticsearch", level: 88 }
+        { name: "MySQL", level: 90 },
+        { name: "MSSQLServer", level: 85 }
       ]
     },
     {
       icon: <Cloud size={32} />,
       title: "Cloud & DevOps",
       skills: [
-        { name: "AWS/GCP", level: 90 },
-        { name: "Docker/K8s", level: 88 },
-        { name: "Terraform", level: 85 },
-        { name: "CI/CD", level: 92 }
+        { name: "AWS", level: 40 },
+        { name: "CI/CD", level: 70 },
+        { name: "GIT", level: 85}
       ]
     },
     {
       icon: <Settings size={32} />,
       title: "Tools & Practices",
       skills: [
-        { name: "Celery/RQ", level: 90 },
-        { name: "GraphQL", level: 85 },
-        { name: "Microservices", level: 93 },
-        { name: "TDD/BDD", level: 88 }
+        { name: "Postman", level: 90 },
+        { name: "Jira", level: 85 },
+        { name: "Microservices", level: 70 }
       ]
     }
   ];

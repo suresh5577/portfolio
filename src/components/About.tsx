@@ -1,5 +1,6 @@
 import React from 'react';
 import { Server, Database, Shield, Zap } from 'lucide-react';
+import profilePic from '../assets/suresh_passport_photo.png';
 
 const About: React.FC = () => {
   const highlights = [
@@ -28,6 +29,13 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
+        <div className="flex justify-center mb-6">
+          <img
+            src={profilePic}
+            alt="Profile"
+            className="w-36 h-36 rounded-full object-cover border-4 border-green-400 shadow-lg"
+          />
+        </div>
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             About <span className="text-green-400">Me</span>
@@ -42,7 +50,7 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
               As a Senior Python Backend Developer, I've architected and built systems that serve millions 
-              of users daily. My expertise spans from designing RESTful APIs and GraphQL endpoints to 
+              of users daily. My expertise spans from designing RESTful APIs endpoints to 
               implementing complex microservices architectures.
             </p>
             

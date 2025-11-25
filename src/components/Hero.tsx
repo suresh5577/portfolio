@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, MapIcon } from 'lucide-react';
 
 const Hero: React.FC = () => {
   
@@ -68,6 +68,16 @@ const Hero: React.FC = () => {
                 <div>
                   <h4 className="text-white font-medium">Phone</h4>
                   <p className="text-gray-300">+91 97032 91029</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="p-3 bg-gray-800 hover:bg-green-600 rounded-full transition-all duration-300 transform hover:scale-110">
+                  <MapPin size={20} className="text-white" />
+                </div>
+                <div>
+                  <h4 className="text-white font-medium">Location</h4>
+                  <p className="text-gray-300">Amalapuram , Andhra Pradesh</p>
                 </div>
               </div>
 

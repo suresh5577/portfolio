@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
       company: "Nueve IT Solutions Pvt Ltd",
       location: "Visakhapatnam, A.P",
       period: "October 2021 - Present",
-      description: "Leading backend development for a data analytics platform processing 50TB+ daily. Architected microservices handling real-time data ingestion and analysis.",
+      description: "Senior Python Backend Developer with extensive experience in building scalable web applications using Python and Django for US-based banks and credit unions. Architected microservices handling real-time data ingestion and analysis.",
       achievements: [
         "Reduced API response time by 60% through database optimization and caching",
         "Built event-driven architecture processing 1M+ events per minute",
@@ -20,10 +20,10 @@ const Experience: React.FC = () => {
       company: "The One Technologies Pvt Ltd.",
       location: "Ahmedabad, Gujarat",
       period: "March 2020 - June 2020",
-      description: "Developed secure payment processing APIs and fraud detection systems. Built high-availability systems handling millions of financial transactions.",
+      description: "Python Developer with strong experience in designing and developing full-featured e-commerce applications. Skilled in building responsive, user-friendly UI screens using HTML, CSS, JavaScript, and Django templates to ensure a seamless and engaging user experience.",
       achievements: [
-        "Implemented fraud detection ML pipeline reducing false positives by 40%",
-        "Built payment processing system handling $2B+ in annual transactions",
+        "Developed core backend modules using Python and Django",
+        "Designed and optimized database models using PostgreSQL",
         "Achieved 99.99% uptime through robust error handling and monitoring"
       ]
     },

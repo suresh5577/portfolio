@@ -16,9 +16,9 @@ const Skills: React.FC = () => {
       icon: <Database size={28} />,
       title: "Databases & Storage",
       skills: [
-        { name: "PostgreSQL", level: 95 },
+        { name: "PostgreSQL", level: 90 },
         { name: "MySQL", level: 90 },
-        { name: "MSSQLServer", level: 85 }
+        { name: "MongoDB", level: 30 }
       ]
     },
     {
@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
       title: "Cloud & DevOps",
       skills: [
         { name: "AWS", level: 40 },
-        { name: "CI/CD", level: 70 },
+        { name: "CI/CD", level: 60 },
         { name: "GIT", level: 85}
       ]
     },

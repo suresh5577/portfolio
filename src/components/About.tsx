@@ -42,7 +42,7 @@ const About: React.FC = () => {
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Passionate about building robust, scalable backend systems that form the backbone 
-            of modern applications. I specialize in Python ecosystems and distributed architectures.
+            of modern applications. I specialize in Python ecosystems and Data Base management systems.
           </p>
         </div>
 

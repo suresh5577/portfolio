@@ -1,7 +1,8 @@
-import React from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, MapIcon } from 'lucide-react';
+import React, { useState } from 'react';
+import { Github, Linkedin, Mail, Phone, MapPin, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
+  const [hovered, setHovered] = useState('');
   
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-green-900 to-blue-900 relative overflow-hidden">
@@ -16,10 +17,6 @@ const Hero: React.FC = () => {
             </span>
           </h1>
           
-          {/* <div class="section__pic-container">
-        <img decoding="async" id="profile1" src="/home/dileep/Documents/Sample/React/FrontEnd/CodeExamples/Portfolio_Website/asset/assets/profile-pic1.png" alt="My Profile  profile picture" title="Dileep Kumar Mantena" style="width: 100px; height: 100px;"  />
-    </div>
-     */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Senior Python Backend Developer with 4+ years of experience building scalable APIs, 
             microservices, and distributed systems that power mission-critical applications.
@@ -31,22 +28,45 @@ const Hero: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 hover:bg-green-600 rounded-full transition-all duration-300 transform hover:scale-110"
+              onMouseEnter={() => setHovered('GitHub')}
+              onMouseLeave={() => setHovered('')}
             >
               <Github size={24} className="text-white" />
+              {hovered === 'GitHub' && (
+            <span className="absolute bottom-14 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded-md">
+            GitHub
+          </span>
+        )}
             </a>
             <a
               href="https://linkedin.com/in/suresh-satyawada"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 hover:bg-green-600 rounded-full transition-all duration-300 transform hover:scale-110"
+              onMouseEnter={() => setHovered('LinkedIn')}
+              onMouseLeave={() => setHovered('')}
             >
               <Linkedin size={24} className="text-white" />
+              {hovered === 'LinkedIn' && (
+            <span className="absolute bottom-14 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded-md">
+            LinkedIn
+          </span>
+        )}
             </a>
             <a
-              href="mailto:suresh.python57@gmail.com"
+              href="https://drive.google.com/file/d/1lPd5R1TWjXHQLtyDUo0f2MGF0h4b0faR/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-gray-800 hover:bg-green-600 rounded-full transition-all duration-300 transform hover:scale-110"
+              onMouseEnter={() => setHovered('Download')}
+              onMouseLeave={() => setHovered('')}
             >
-              <Mail size={24} className="text-white" />
+              <Download size={24} className="text-white" />
+              {hovered === 'Download' && (
+            <span className="absolute bottom-14 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded-md">
+            Resume
+          </span>
+        )}
             </a>
           </div>
 

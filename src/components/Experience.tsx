@@ -6,8 +6,8 @@ const Experience: React.FC = () => {
     {
       title: "Senior Python Backend Developer",
       company: "Nueve IT Solutions Pvt Ltd",
-      location: "Visakhapatnam, A.P",
-      period: "October 2021 - Present",
+      location: "Visakhapatnam, Andhra Pradesh",
+      period: "October 2021 - September 2025",
       description: "Senior Python Backend Developer with extensive experience in building scalable web applications using Python and Django for US-based banks and credit unions. Architected microservices handling real-time data ingestion and analysis.",
       achievements: [
         "Reduced API response time by 60% through database optimization and caching",
@@ -26,31 +26,7 @@ const Experience: React.FC = () => {
         "Designed and optimized database models using PostgreSQL",
         "Achieved 99.99% uptime through robust error handling and monitoring"
       ]
-    },
-    // {
-    //   title: "Backend Developer",
-    //   company: "CloudScale Systems",
-    //   location: "San Francisco, CA",
-    //   period: "2016 - 2019",
-    //   description: "Built scalable REST APIs and background processing systems. Focused on performance optimization and database design for high-traffic applications.",
-    //   achievements: [
-    //     "Optimized database queries reducing average response time from 2s to 200ms",
-    //     "Implemented async task processing handling 100K+ jobs daily",
-    //     "Designed caching strategy improving application performance by 300%"
-    //   ]
-    // },
-    // {
-    //   title: "Junior Python Developer",
-    //   company: "StartupLab",
-    //   location: "Austin, TX",
-    //   period: "2014 - 2016",
-    //   description: "Developed web applications using Django and Flask. Gained experience in full software development lifecycle and agile methodologies.",
-    //   achievements: [
-    //     "Built RESTful APIs serving 10K+ daily active users",
-    //     "Implemented automated testing increasing code coverage to 95%",
-    //     "Contributed to open-source Django packages with 1K+ GitHub stars"
-    //   ]
-    // }
+    }
   ];
 
   return (
@@ -60,9 +36,6 @@ const Experience: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Professional <span className="text-green-400">Journey</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A decade of building robust backend systems and leading technical initiatives
-          </p>
         </div>
 
         <div className="relative">

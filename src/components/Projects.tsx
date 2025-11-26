@@ -3,28 +3,28 @@ import React from 'react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Real-time Analytics API",
-      description: "High-performance analytics platform built with FastAPI and PostgreSQL, processing 10M+ events daily with sub-100ms response times.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=500",
-      tech: ["FastAPI", "PostgreSQL", "Redis", "Celery", "Docker"],
+      title: "Cross-border Banking Payments",
+      description: "The platform enables users to send and receive funds across different countries with ease and transparency processing 100+ transactions daily with sub-100ms response times.",
+      image: "https://c7.alamy.com/comp/2FNHKK2/international-money-transfer-and-safe-transactions-user-sending-money-in-different-locations-abroad-using-a-mobile-banking-app-2FNHKK2.jpg",
+      tech: ["Python", "Django", "Postgresql", "Wise API", "Q2-SDK", "AWS"],
       liveUrl: "https://analytics-api-demo.com",
       githubUrl: "https://github.com/username/analytics-api",
       featured: true
     },
     {
-      title: "Microservices E-commerce Backend",
-      description: "Scalable e-commerce backend with separate services for inventory, payments, and user management. Built with Django and deployed on Kubernetes.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500",
-      tech: ["Django", "PostgreSQL", "RabbitMQ", "Kubernetes", "AWS"],
+      title: "External Account Linking Service",
+      description: "users to seamlessly add external bank accounts to their current online banking profile through Plaid API integration. Built with Flask and deployed on Kubernetes.",
+      image: "https://www.growfinancial.org/wp-content/uploads/2023/09/AddingLinkingAccounts_ArticleHeader_Blog.png",
+      tech: ["Flask", "MySQL", "Plaid API","Q2-SDK", "Kubernetes", "AWS"],
       liveUrl: "https://ecommerce-backend.com",
       githubUrl: "https://github.com/username/ecommerce-microservices",
       featured: true
     },
     {
-      title: "ML Model Serving Platform",
-      description: "MLOps platform for deploying and monitoring machine learning models at scale. Features A/B testing and real-time model performance tracking.",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=500",
-      tech: ["Flask", "TensorFlow", "MongoDB", "Prometheus", "Grafana"],
+      title: "E-commerce website",
+      description: "This is a full-featured e-commerce web application for US clients focused on ordering customizable wallpapers, decals,and murals for wall decoration. Built responsive UI screens with HTML, CSS, JavaScript, and Django templates for smooth user experience",
+      image: "https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-ecommerce-website-with-shopping-cart-with-the-shopping-cart-on-a-image_2975658.jpg",
+      tech: ["Python","Django", "PostgreSQL","JavaScript", "nginx server", "Docker"],
       liveUrl: "https://ml-platform-demo.com",
       githubUrl: "https://github.com/username/ml-serving-platform",
       featured: true

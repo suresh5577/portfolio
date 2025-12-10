@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
         )}
             </a>
             <a
-              href="https://drive.google.com/file/d/1U2V-ZUwr0-rJeKQqgc1hXuEbpITvPAHP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yS9hCJXq2cHAkNV-YmBkKK4mSEIRG-Vf/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 hover:bg-green-600 rounded-full transition-all duration-300 transform hover:scale-110"
